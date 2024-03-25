@@ -16,13 +16,31 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <header style={{ background: "brown", color: "#fff", padding:"3rem", fontSize:"20px"}}>
+      
+      <body id="m-body">
+        <header
+          style={{
+            background: "brown",
+            color: "#fff",
+            padding: "3rem",
+            fontSize: "20px",
+          }}
+        >
           this is the header right here
         </header>
         {children}
-        <footer style={{background:"#000", color:"#fff", padding:"2.5rem", fontSize:"15px"}}>this is the footer right here
+        <footer
+          style={{
+            background: "#000",
+            color: "#fff",
+            padding: "2.5rem",
+            fontSize: "15px",
+          }}
+        >
+          this is the footer right here
         </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
       </body>
     </html>
   );

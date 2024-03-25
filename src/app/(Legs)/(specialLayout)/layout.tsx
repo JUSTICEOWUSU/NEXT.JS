@@ -5,11 +5,11 @@ function SpecialLayout({children}:{
 }) {
   return (
     <div>
-        <h3>SpecialLayout children</h3>
+        <h3>Special Layout children</h3>
         {
             children
         }
-        </div>
+     </div>
   )
 }
 

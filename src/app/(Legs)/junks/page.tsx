@@ -5,7 +5,7 @@ export const metadata = {
 }
 function Junks() {
   return (
-    <h1>Junks page right here</h1>
+    <h1>Junks page right here in the real world</h1>
   )
 }
 
