@@ -4,15 +4,6 @@ import BIRDS from "vanta/dist/vanta.net.min";
 
 
 export default function Home() {
-  // return (
-  //   <>
-  //     <h1>all products</h1>
-
-  //     <h3>product 1</h3>
-  //     <h3>product 2</h3>
-  //     <h3>product 3</h3>
-  //   </>
-  // );
 
   const [vantaEffect, setVantaEffect] = useState(null);
   const myRef = useRef(null);
@@ -62,15 +53,15 @@ export default function Home() {
           }}
         >
           <img
-            // src="istockphoto-1329882047-612x612-removebg-preview.png"
+            src="istockphoto-1329882047-612x612-removebg-preview.png"
             // src="istockphoto-1067891296-612x612-removebg-preview.png"
-            src="istockphoto-1943327072-612x612-removebg-preview.png"
+            // src="istockphoto-1943327072-612x612-removebg-preview.png"
             alt=""
             style={{
               width: "300px",
               height: "350px",
               transformStyle: "preserve-3d",
-              animation: "rotateVertical 170s infinite linear",
+              animation: "rotateVertical 200s infinite linear",
             }}
           />
           <style>
